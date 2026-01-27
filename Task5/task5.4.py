@@ -7,3 +7,8 @@ for i in range(5):
         cities.append(city)
 
 print(f"The Collected Cities are: {cities}")
+
+if len(cities) < 5:
+    print("If there are lesser number of cities than you entered, There must have been some repetition in the Input values!")
+else:
+    print("GoodBye!")
