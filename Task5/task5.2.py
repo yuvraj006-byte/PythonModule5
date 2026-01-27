@@ -1,6 +1,6 @@
 nums = []
 
-for i in range(1000):
+while True:
     user_input = input("Enter a number: ")
 
     if user_input == "":
