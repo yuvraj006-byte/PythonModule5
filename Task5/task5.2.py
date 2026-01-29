@@ -7,7 +7,7 @@ while True:
         print("Goodbye")
         break
 
-    nums.append(int(user_input))
+    nums.append(float(user_input))
 
 nums.sort(reverse=True)
 
